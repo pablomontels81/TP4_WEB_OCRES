@@ -1,0 +1,22 @@
+.UserRecap {
+    width: 50%;
+    height: 75%;
+    margin: auto;
+    color: black;
+}
+
+.PictureStyle {
+    width: 4rem;
+    height: 4rem;
+}
+
+.NameStyle {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.SurnameStyle {
+    display: inline-block;
+    padding-right: 10rem;
+    font-size: 2rem;
+}
