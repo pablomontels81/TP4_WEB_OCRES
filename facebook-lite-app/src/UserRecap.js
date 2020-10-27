@@ -32,8 +32,7 @@ class UserRecap extends React.Component{
             {
                 backgroundcolorstyle : newBackgroundColor
             }
-        );
-        
+        ); 
     }
 
     render(){
@@ -42,7 +41,7 @@ class UserRecap extends React.Component{
             <div style={{backgroundColor: this.state.backgroundcolorstyle}}>
                 <div className="UserRecap">
                     <div className="PictureStyle">
-                        <img src={require('./img/VLuis.jpg')} alt='' />
+                        
                     </div>
                     <div>
                         <p className="SurnameStyle">{this.props.user.surname}</p>
@@ -50,6 +49,9 @@ class UserRecap extends React.Component{
                         <p></p>
                     </div>
                     <p> {this.props.user.birthyear}</p>
+                    <div>
+                        <button onClick={this.getNewBackgroundColorsNumber} className="ButtonChangeColorsStyle"> Changer la couleur du fond</button>
+                    </div>
                 </div>
             </div>
         )
